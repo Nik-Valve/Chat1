@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Chat1.Windows"
         mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
         Title="User" Height="500" Width="350" MinHeight="500" MinWidth="350" MaxHeight="500" MaxWidth="350">
     <Window.Resources>
         <Style x:Key="FocusVisual">

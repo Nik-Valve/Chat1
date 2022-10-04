@@ -174,7 +174,6 @@ namespace Chat1.Windows
             InitializeComponent();
             lvClientList.ItemsSource = ClassHelper.AppData.Context.User.ToList();
             lvChatList.ItemsSource = ClassHelper.AppData.Context.Massage.ToList();
-            MessageBox.Show("Yua Zaebalsa");
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

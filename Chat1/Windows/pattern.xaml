@@ -1,0 +1,32 @@
+﻿<Window x:Class="Chat1.Windows.pattern"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chat1.Windows"
+        mc:Ignorable="d"
+        Title="pattern" Height="100" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="22*"/>
+            <ColumnDefinition Width="45*"/>
+            <ColumnDefinition Width="8*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="/Windows/image1.png"/>
+        <TextBlock
+            Grid.Row="0"
+            Grid.Column="1"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Left"
+            Margin="10"
+            Text="_________________"/>
+        <TextBox
+            Width="20"
+            Height="20"
+             Grid.Column="2"
+            x:Name="isActive"
+             VerticalAlignment="Center"
+            HorizontalAlignment="Center" Background="#FF00FF27" BorderBrush="#FF00FF27" />
+
+    </Grid>
+</Window>
